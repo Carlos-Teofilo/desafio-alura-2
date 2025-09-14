@@ -20,7 +20,7 @@ ROOT_DIR = environ.Path(__file__) - 2
 env = environ.Env()
 
 environ.Env.read_env("/etc/desafio-alura.env")
-#environ.Env.read_env(os.path.join(ROOT_DIR, ".env"))
+# environ.Env.read_env(os.path.join(ROOT_DIR, ".env"))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/

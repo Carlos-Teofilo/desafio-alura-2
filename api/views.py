@@ -77,7 +77,7 @@ class DespesaViewSet(viewsets.ViewSet):
             )
         
         return Response(
-            serializer.erros,
+            serializer.errors,
             status=HTTP_400_BAD_REQUEST
         )
 
